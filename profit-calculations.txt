@@ -1,0 +1,3 @@
+EBT: 22
+Profit: 19.8
+Ratio: 1.11
