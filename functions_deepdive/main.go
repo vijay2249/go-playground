@@ -96,3 +96,21 @@ func factorialLoop(n int) int {
 	}
 	return result
 }
+
+
+func VariadicFunctions() {
+	sum := sumup(1,2,3,4,5,6,7,8,9,10)
+	fmt.Println(sum)
+	num := []int{10,11,12}
+	anotherSum := sumup(1, num...)
+	fmt.Println(anotherSum)
+}
+
+func sumup(startNum int, num ...int) int {
+	fmt.Println("start num:", startNum)
+	sum :=  0
+	for _, val := range num {
+		sum+= val
+	}
+	return sum
+}

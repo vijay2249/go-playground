@@ -59,7 +59,8 @@ func main() {
 	// functionsDeepDive.Main()
 	// functionsDeepDive.AnonymousFunctions()
 	// functionsDeepDive.Clousers()
-	functionsDeepDive.Recursions()
+	// functionsDeepDive.Recursions()
+	functionsDeepDive.VariadicFunctions()
 
 }
 
