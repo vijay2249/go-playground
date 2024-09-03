@@ -16,13 +16,14 @@ import (
 	// "wedonttrack.org/learn/go/basics/interfaces/todo"
 	// "wedonttrack.org/learn/go/basics/generics"
 	// arraysslicesmaps "wedonttrack.org/learn/go/basics/Arrays_Slices_Maps"
-	functionsDeepDive "wedonttrack.org/learn/go/basics/functions_deepdive"
+	// functionsDeepDive "wedonttrack.org/learn/go/basics/functions_deepdive"
+	"wedonttrack.org/learn/go/basics/concurrency"
 )
 
 
 
 func main() {
-	fmt.Println("Hi MOM!!")
+	// fmt.Println("Hi MOM!!")
 
 	// basics.Basics()
 	// functions.CalculateRevenue()
@@ -60,7 +61,8 @@ func main() {
 	// functionsDeepDive.AnonymousFunctions()
 	// functionsDeepDive.Clousers()
 	// functionsDeepDive.Recursions()
-	functionsDeepDive.VariadicFunctions()
+	// functionsDeepDive.VariadicFunctions()
+	concurrency.Main()
 
 }
 
